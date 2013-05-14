@@ -2,7 +2,7 @@
 
 Forget all async, nodejs and other stuff; simply write tests, that's it!
 
-** VERY EARLY ALPHA - use at your own risk**
+** VERY EARLY ALPHA - use at your own risk **
 
 ## Example
 
