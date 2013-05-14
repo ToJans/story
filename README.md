@@ -1,5 +1,7 @@
 # Story - automate the browser in an easy way
 
+Forget all async, nodejs and other stuff; simply write tests, that's it!
+
 ** VERY EARLY ALPHA - use at your own risk**
 
 ## Example
@@ -41,7 +43,7 @@ Then you have two possibilities:
 
 or 
 
-    npm start
+    npm test
     
 ## Available commands for the browser
 
