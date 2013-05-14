@@ -24,7 +24,7 @@
         text = browser.elementByCss("h3").text()
         text.should.equal system.searchResults.titles.expectedText
 
-## How to get started
+## How to run
 
 First you need to start selenium (only do this once):
 use
@@ -43,15 +43,18 @@ or
 
     npm start
     
-## Usage
+## Available commands for the browser
 
-to know which commands are available on the browser object, look [here](https://github.com/sebv/node-wd-sync).
+To know which commands are available on the browser object, look [here](https://github.com/sebv/node-wd-sync).
 
-All commands run synchronously, no need to teach your testers async stuff
+All commands run synchronously, no need to teach your testers async stuff.
+
+There is one extra command on the browser named `submit` that allows you to submit a form. It uses `browser.elementByName` based on the keys; take a look at the example.
+
+## Dependencies
 
 - node.js
 - coffee-script
-- Integration testing
 - selenium
 - webdriver
 - wd-sync    

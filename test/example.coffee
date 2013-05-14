@@ -15,7 +15,7 @@ story "Automate the browser in an easy way",
     browser.get system.search.url
     browser.submit system.search.data
     browser.setWaitTimeout 3*1000
-    text = browser.elementByCss("h3").text()
+    text = browser.elementByCss(system.searchResults.titles.selector).text()
     text.should.equal system.searchResults.titles.expectedText
     
     
