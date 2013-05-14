@@ -1,0 +1,21 @@
+{
+  "name": "story",
+  "version": "0.0.1",
+  "description": "simple UI testing using selenium",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.8.2",
+    "coffee-script":"*",
+    "should": "~1.2.2",
+    "wd-sync": "~1.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "",
+  "author": "Tom Janssens <Tom@corebvba.be>",
+  "license": "BSD"
+}
