@@ -44,6 +44,10 @@ Then you have two possibilities:
 or 
 
     npm test
+
+And this should be the output you receive after you see some stuff happening in the browser:
+
+![Output](./doc/screenshot.png)
     
 ## Available commands for the browser
 
