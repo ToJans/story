@@ -26,15 +26,18 @@ Forget all async, nodejs and other stuff; simply write tests, that's it!
         text = browser.elementByCss(system.searchResults.titles.selector).text()
         text.should.equal system.searchResults.titles.expectedText
 
-## Prerequisites
+## How to run
+
+Make sure you have all the required prerequisites in you path (I use chocolatey on windows):
 
 - nodejs
 - npm
-- (mocha - you can run it using npm test as well)
 
-## How to run
+Download the code or clone the repo using
 
-Make sure you have all the required dependencies
+    git clone git://github.com/ToJans/story.git
+
+and then run
 
     npm install
 
@@ -47,15 +50,11 @@ or
 
     java -jar tools\selenium-server-standalone-2.31.0.jar -Dwebdriver.chrome.driver=tools\chromedriver.exe
 
-Then you have two possibilities:
-
-    mocha
-
-or 
+Then run the `.coffee` and `.js` test files in your `./test` subfolder 
 
     npm test
 
-And this should be the output you receive after you see some stuff happening in the browser:
+This should be the output you receive after you see some voodoo magic happening in the browser (Chrome required):
 
 ![Output](./doc/screenshot.png)
     
