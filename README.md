@@ -23,7 +23,7 @@ Forget all async, nodejs and other stuff; simply write tests, that's it!
         browser.get system.search.url
         browser.submit system.search.data
         browser.setWaitTimeout 3*1000
-        text = browser.elementByCss("h3").text()
+        text = browser.elementByCss(system.searchResults.titles.selector).text()
         text.should.equal system.searchResults.titles.expectedText
 
 ## How to run
