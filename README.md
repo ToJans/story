@@ -26,7 +26,17 @@ Forget all async, nodejs and other stuff; simply write tests, that's it!
         text = browser.elementByCss(system.searchResults.titles.selector).text()
         text.should.equal system.searchResults.titles.expectedText
 
+## Prerequisites
+
+- nodejs
+- npm
+- (mocha - you can run it using npm test as well)
+
 ## How to run
+
+Make sure you have all the required dependencies
+
+    npm install
 
 First you need to start selenium (only do this once):
 use
